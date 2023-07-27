@@ -20,10 +20,10 @@
 
 </head>
 
-<body class="px-3">
+<body class="">
 
     <!-- header section -->
-    <header>
+    <header class="px-3">
         <div class="bg-white navbar container mx-auto rounded-full mt-5 font-lato md:bg-[#F85559]">
             <!-- main menu item ection -->
             <div class="navbar-center ml-3 hidden text-white lg:flex">
@@ -39,15 +39,17 @@
             <div
                 class=" w-full navbar-start justify-between flex-row-reverse md:flex-row md:justify-around lg:justify-center">
                 <div class="dropdown">
-                    <label tabindex="0" class="btn btn-ghost lg:hidden ">
+                    <label tabindex="0" class=" lg:hidden ">
                         <i class="fa-solid fa-bars text-2xl md:text-white"></i>
                     </label>
                     <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-28 text-black right-0">
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-40 text-black right-0 md:left-0">
                         <li><a>Home</a></li>
                         <li><a>About Us</a></li>
                         <li><a>Shop</a></li>
                         <li><a>All Fruits</a></li>
+                        <li> <input type="text" placeholder="Search here"
+                            class="input input-bordered rounded-lg mt-3 w-full text-black" /></li>
                     </ul>
                 </div>
                 <div class="flex gap-3 font-lato items-center ">
@@ -66,7 +68,7 @@
 
     <!-- banner section -->
 
-    <main class="container mx-auto relative">
+    <main class="container mx-auto relative px-3">
         <!-- cuarousel section -->
         <div class="carousel  mt-5 rounded-lg container ">
             <!-- slide-one -->
@@ -186,7 +188,7 @@
 
     <!-- deal section -->
 
-    <main>
+    <main class="px-3">
         <div
             class="grid justify-between items-center mt-5 mb-7 container mx-auto text-center md:grid-cols-1 md:mt-48 md:mb-24 lg:grid-cols-2 ">
             <div class="px-5 text-center lg:text-left">
@@ -196,30 +198,30 @@
                     has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
             <div
-                class="gap-1 flex text-base font-medium   mt-5 justify-between lg:mt-0 lg:justify-end md:gap-6 md:justify-center">
+                class="gap-1 flex text-base font-medium  mt-5 justify-between lg:mt-0 lg:justify-end md:gap-6 md:justify-center">
                 <section>
-                    <h1 class="text-3xl md:text-5xl font-bold">29</h1>
+                    <h1 class="text-3xl md:text-5xl font-extrabold">29</h1>
                     <p>Days</p>
                 </section>
                 <section>
                     <p>:</p>
                 </section>
                 <section>
-                    <h1 class="text-3xl md:text-5xl  font-bold">15</h1>
+                    <h1 class="text-3xl md:text-5xl  font-extrabold">15</h1>
                     <p>Hours</p>
                 </section>
                 <section>
                     <p>:</p>
                 </section>
                 <section>
-                    <h1 class="text-3xl md:text-5xl font-bold">25</h1>
+                    <h1 class="text-3xl md:text-5xl font-extrabold">25</h1>
                     <p>Minutes</p>
                 </section>
                 <section>
                     <p>:</p>
                 </section>
                 <section>
-                    <h1 class="text-3xl md:text-5xl font-bold">08</h1>
+                    <h1 class="text-3xl md:text-5xl font-extrabold">08</h1>
                     <p>Seconds</p>
                 </section>
             </div>
@@ -228,7 +230,7 @@
 
     <!-- Deal card section -->
 
-    <main>
+    <main class="px-3">
         <div
             class="card-container container mx-auto grid gap-6 justify-between items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 ">
             <!-- card 1 -->
@@ -550,14 +552,14 @@
             </div>
         </div>
         <button
-            class="btn btn-outline border   bg-[#F85559] rounded-full h-6 w-6 p-5 text-xl  text-white font-bold md:text-sm lg:text-md border-[#F85559] mt-8 mb-24 block mx-auto">Shop
+            class="btn btn-outline border bg-[#F85559] w-auto h-auto text-white font-bold md:text-sm lg:text-md border-[#F85559] rounded-lg mt-8 mb-24 block mx-auto">Shop
             All</button>
     </main>
 
     <!-- team section -->
 
-    <main>
-        <div class="hero min-h-screen container mx-auto rounded-lg bg-no-repeat bg-cover bg-center"
+    <main class="px-3">
+        <div class="hero min-h-screen container mx-auto rounded-lg bg-no-repeat bg-cover bg-center md:pb-14"
             style="background-image: url('./images/banner1.png');">
             <div class="hero-overlay bg-opacity-40 bg-black"></div>
             <div class="hero-content text-center text-neutral-content">
@@ -642,7 +644,7 @@
 
     <!-- choose us section -->
 
-    <main class="container mx-auto">
+    <main class="container mx-auto px-3">
         <div class="choose-text px-4 max-w-xl text-center mx-auto mt-14">
             <h1 class="mt-7 mb-5 text-2xl lg:text-5xl font-extrabold">Why Choose Us</h1>
             <p class="mb-12">Contrary to popular belief, is not simply random text. It has roots in a piece of classical
@@ -660,7 +662,8 @@
                     <div class="choose-left-text">
                         <h4 class="text-2xl font-extrabold text-center lg:text-start">Dedicated Team</h4>
                         <hr class="w-24 my-4 mx-auto lg:mx-0">
-                        <p class="text-center lg:text-start">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        <p class="text-center lg:text-start">Professional employees are there for you to pick the most
+                            amazing and fresh fruits.</p>
                     </div>
                 </div>
                 <div class="choose2 flex flex-col lg:flex-row gap-6 ">
@@ -671,7 +674,8 @@
                     <div class="choose-left-text">
                         <h4 class="text-2xl font-extrabold text-center lg:text-start">Fresh is Best</h4>
                         <hr class="w-24 my-4 mx-auto lg:mx-0">
-                        <p class="text-center lg:text-start">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        <p class="text-center lg:text-start">Professional employees are there for you to pick the most
+                            amazing and fresh fruits.</p>
                     </div>
                 </div>
                 <div class="choose3 flex flex-col lg:flex-row gap-6 ">
@@ -682,17 +686,20 @@
                     <div class="choose-left-text">
                         <h4 class="text-2xl font-extrabold text-center lg:text-start">Gift Certificates</h4>
                         <hr class="w-24 my-4 mx-auto lg:mx-0">
-                        <p class="text-center lg:text-start">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        <p class="text-center lg:text-start">Professional employees are there for you to pick the most
+                            amazing and fresh fruits.</p>
                     </div>
                 </div>
             </div>
-            <img class="choose-img -order-1 sm:col-span-2 justify-self-center lg:col-span-1 lg:order-2" src="./images/whychoose1.png" alt="">
+            <img class="choose-img -order-1 sm:col-span-2 justify-self-center lg:col-span-1 lg:order-2"
+                src="./images/whychoose1.png" alt="">
             <div class="choose-right flex flex-col gap-8 col-span-1 md:col-span-1 lg:order-3  p-5">
                 <div class="choose1 flex flex-col-reverse lg:flex-row gap-6">
                     <div class="choose-right-text flex flex-col items-center lg:items-end">
                         <h4 class="text-2xl font-extrabold lg:text-end">Integrated Supplier</h4>
                         <hr class="w-24 my-4 mx-auto lg:mx-0">
-                        <p class="text-center lg:text-end">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        <p class="text-center lg:text-end">Professional employees are there for you to pick the most
+                            amazing and fresh fruits.</p>
                     </div>
                     <div
                         class="choose1-icon self-center bg-zinc-400 bg-opacity-20 rounded-full h-14 w-14 flex items-center justify-center">
@@ -703,7 +710,8 @@
                     <div class="choose-right-text flex flex-col items-center lg:items-end">
                         <h4 class="text-2xl font-extrabold lg:text-end">Sustainable Practice</h4>
                         <hr class="w-24 my-4 mx-auto lg:mx-0">
-                        <p class="text-center lg:text-end">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        <p class="text-center lg:text-end">Professional employees are there for you to pick the most
+                            amazing and fresh fruits.</p>
                     </div>
                     <div
                         class="choose1-icon self-center bg-zinc-400 bg-opacity-20 rounded-full h-14 w-14 flex items-center justify-center">
@@ -714,7 +722,8 @@
                     <div class="choose-right-text flex flex-col items-center lg:items-end">
                         <h4 class="text-2xl font-extrabold lg:text-end">The Benefits Only</h4>
                         <hr class="w-24 my-4 mx-auto lg:mx-0">
-                        <p class="text-center lg:text-end">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        <p class="text-center lg:text-end">Professional employees are there for you to pick the most
+                            amazing and fresh fruits.</p>
                     </div>
                     <div
                         class="choose1-icon self-center bg-zinc-400 bg-opacity-20 rounded-full h-14 w-14 flex items-center justify-center">
@@ -723,6 +732,35 @@
                 </div>
             </div>
         </div>
+    </main>
+
+    <!-- footer section -->
+
+    <main class="mt-10">
+        <footer class="footer footer-center p-10 bg-black text-base-content rounded text-white">
+            <div class="flex gap-3 font-lato items-center ">
+                <img src="./images/logo.png" alt="" class="w-7">
+                <a class=" font-bold text-xl lg:text-4xl">Fruit Burst</a>
+            </div>
+            <div class="flex justify-center gap-6 text-base md:text-lg flex-wrap">
+                <a class=" ">Home</a>
+                <a class=" ">About us</a>
+                <a class=" ">Shop</a>
+                <a class=" ">All Fruits</a>
+                <a class="">Support</a>
+                <a class=" ">My Account</a>
+            </div>
+            <div class="flex justify-center gap-6 text-lg md:text-3xl flex-wrap">
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-apple"></i></a>
+            </div>
+            <div>
+            </div>
+        </footer>
     </main>
 </body>
 
